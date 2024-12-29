@@ -1,0 +1,12 @@
+span.breadcrumb {
+    /*height: 25px;
+    display: inline-flex;
+    padding: 0 15px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1px;
+
+    border-radius: 25px;*/
+    padding: 1px 1rem;
+    background: linear-gradient(90deg, rgba(83, 127, 138, 0.80) 0%, rgba(144, 221, 240, 0.80) 100%);
+}

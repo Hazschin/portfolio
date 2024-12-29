@@ -1,5 +1,56 @@
-div {
-    width: 150px;
-    height: 150px;
-    background: #333;
+.card {
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+    border-radius: 5px;
+    background: #3423a6;
+
+    color:#fff;
+    overflow: hidden;
+}
+
+.transparence {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #000 0.65%, rgba(0, 0, 0, 0.90) 24.47%, rgba(23, 23, 56, 0.45) 99.91%);
+}
+
+.info, .image {
+    position: absolute;
+    width: 66%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info {
+    top: 0;
+    left: 0;
+    
+    z-index: 3;
+    row-gap: 15px;
+}
+
+.image {
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.image img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.buttons, .breadcrumbs {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
 }

@@ -1,0 +1,11 @@
+.button {
+    /*display: inline-flex;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3px;
+
+    border-radius: 5px;*/
+    border: 0.1px solid rgba(144, 221, 240, 0.35);
+    background: linear-gradient(90deg, rgba(20, 13, 64, 0.30) 20.5%, rgba(52, 35, 166, 0.30) 100%);
+}
