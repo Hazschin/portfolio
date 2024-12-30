@@ -25,7 +25,7 @@ export interface summary{
 }
 
 export interface projectCard {
-    title: string
+    title?: string
     skills?: string[]
     description?: string
     codeLink?:string
@@ -34,11 +34,11 @@ export interface projectCard {
 }
 
 export interface experienceCard {
-    position:string
-    name:string
-    startDate:string
-    endDate:string
-    description:string
+    position?:string
+    name?:string
+    startDate?:string
+    endDate?:string
+    description?:string
 }
 
 export interface aboutMe {

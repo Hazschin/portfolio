@@ -16,7 +16,7 @@ export default function Summary({
   let keywordsSkills: string[] = [];
 
   if (skills) {
-    for (let skill of skills) {
+    for (const skill of skills) {
       keywordsSkills = keywordsSkills.concat(skill.keywords);
     }
   }

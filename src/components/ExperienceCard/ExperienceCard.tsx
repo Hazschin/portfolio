@@ -5,8 +5,8 @@ import { dateFormatter } from "@/utils/dateFormatter";
 export default function ExperienceCard({
   name,
   position,
-  startDate,
-  endDate,
+  startDate = "",
+  endDate = "",
   description,
 }: experienceCard) {
   startDate = dateFormatter(startDate);
