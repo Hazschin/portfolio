@@ -1,4 +1,3 @@
-import { GitHub, LinkedIn } from "@mui/icons-material";
 import Breadcrumb from "../BreadCrumb/Breadcrumb";
 import "./summary.css";
 import Button from "../Button/Button";

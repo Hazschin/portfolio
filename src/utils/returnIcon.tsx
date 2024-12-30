@@ -1,4 +1,4 @@
-import React, { CSSProperties, JSX } from "react";
+import React, { JSX } from "react";
 import { GitHub, Link, LinkedIn } from "@mui/icons-material";
 
 interface IconProps {
