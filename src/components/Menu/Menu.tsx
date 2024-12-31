@@ -1,6 +1,4 @@
 import { menu } from "@/types/components";
-import Experience from "../Experience/Experience";
-import Projects from "../Projects/Projects";
 import "./menu.css";
 
 export default function Menu({
