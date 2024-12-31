@@ -26,7 +26,7 @@ export default function Summary({
       <div className="basis-1/4 flex justify-center">
         <img className="max-sm:w-4/12" src={image} />
       </div>
-      <div className="flex flex-col basis-3/8">
+      <div className="flex flex-col basis-3/4">
         <span className="text-2xl font-bold">{name}</span>
         <span className="text-2xl text-shine font-bold mb-2">{label}</span>
         {available ? (
