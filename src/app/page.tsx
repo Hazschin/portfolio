@@ -21,10 +21,22 @@ export default function Home() {
 
   const [resume, setResume] = useState<ResumeType | undefined>();
 
+  const hasProjects: boolean =
+    resume?.projects && resume.projects.length > 0 ? true : false;
+
+  const hasExperience: boolean =
+    resume?.work && resume.work.length > 0 ? true : false;
+
+  const hasAboutMe: boolean = resume?.basics.aboutMe ? true : false;
+
   return (
     <div className="flex justify-center pb-10">
       <div className="px-8 max-w-screen-lg">
-        <Menu />
+        <Menu
+          hasProjects={hasProjects}
+          hasExperience={hasExperience}
+          hasAboutMe={hasAboutMe}
+        />
         <Summary basics={resume?.basics} skills={resume?.skills} />
         <Projects projects={resume?.projects} />
         <Experience works={resume?.work} />

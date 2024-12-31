@@ -4,7 +4,7 @@ import "./experience.css";
 import { ResumeWorkType } from "@/types/resumeType";
 
 export default function Experience({ works }: { works?: ResumeWorkType[] }) {
-  if (!works) return <></>;
+  if (!works || works.length === 0) return <></>;
   return (
     <div>
       <div

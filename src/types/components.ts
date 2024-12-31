@@ -44,3 +44,9 @@ export interface experienceCard {
 export interface aboutMe {
     description:string
 }
+
+export interface menu {
+    hasProjects:boolean
+    hasExperience:boolean
+    hasAboutMe:boolean
+}
