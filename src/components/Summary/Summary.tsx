@@ -22,9 +22,9 @@ export default function Summary({
   }
 
   return (
-    <div className="flex flex-row gap-3 pt-5 mt-20">
-      <div className="basis-1/4">
-        <img src={image} />
+    <div className="flex flex-row gap-3 pt-5 mt-20 max-sm:flex-col">
+      <div className="basis-1/4 flex justify-center">
+        <img className="max-sm:w-4/12" src={image} />
       </div>
       <div className="flex flex-col basis-3/8">
         <span className="text-2xl font-bold">{name}</span>

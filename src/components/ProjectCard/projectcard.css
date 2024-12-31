@@ -52,5 +52,6 @@
 .buttons, .breadcrumbs {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 12px;
 }
